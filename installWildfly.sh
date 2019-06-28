@@ -6,11 +6,11 @@
 sudo apt update
 
 #install curl and wget
-sudo apt-get install curl
-sudo apt-get install wget
+sudo apt-get -y install curl
+sudo apt-get -y install wget
 
 #install java
-sudo apt install -y wget openjdk-8-jdk openjdk-8-jre
+sudo apt install -y wget openjdk-8-jdk
 
 #install maven
 sudo apt install -y maven
